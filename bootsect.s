@@ -10,8 +10,8 @@
 ;-----------------------------------------------------------------------------
 
 os_numsectors   dw 20                   ; how many sectors to read
-os_offset       dw 0                    ; segment to load code into
-os_segment      dw 0x60                 ; offset to load code into
+os_offset       dw 0                    ; offset to load code into
+os_segment      dw 0x60                 ; segment to load code into
 
                 db " 7-May-81",0        ; timestamp
                 times 31 db 0           ; padding
